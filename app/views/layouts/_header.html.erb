@@ -17,6 +17,7 @@
         <li><%= link_to "F a n s", root_path %></li>
         <li><%= link_to "H a n d s", hands_path %></li>
         <% if user_signed_in? %>
+          <li><%= link_to 'New Pin', new_pin_path %></li>
           <li><%= link_to "L o g O u t", destroy_user_session_path, method: :delete %></li>
         <% else %>
           <li><%= link_to "J o i n", new_user_registration_path %></li>
