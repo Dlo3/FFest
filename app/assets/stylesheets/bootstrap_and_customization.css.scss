@@ -3,10 +3,10 @@
 $body-bg: 							#000000;
 $font-family-sans-serif: 			'Alegreya Sans SC', sans-serif;
 $navbar-height:						40px;
-$navbar-inverse-bg: 				#0F0E0E;
-$navbar-inverse-link-color: 		#FFFFFF;
-$brand-primary: 					#0F0E0E;
-$jumbotron-bg: 						#0F0E0E;
+$navbar-inverse-bg: 				#0F0E0E; //Black//
+$navbar-inverse-link-color: 		#FFFFFF; //White Header Font//
+$brand-primary: 					#FFFFFF; //White buttons//
+$jumbotron-bg: 						#0F0E0E; //Black//
 @import 'bootstrap';
 
 .center {
