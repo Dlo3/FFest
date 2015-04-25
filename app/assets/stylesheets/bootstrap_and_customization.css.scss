@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500);
 
-$body-bg: 							#000000;
+$body-bg: 							blue;
 $font-family-sans-serif: 			'Alegreya Sans SC', sans-serif;
 $navbar-height:						40px;
 $navbar-inverse-bg: 				#0F0E0E; //Black//
@@ -9,6 +9,36 @@ $brand-primary: 					#FFFFFF; //White buttons//
 $jumbotron-bg: 						#0F0E0E; //Black//
 @import 'bootstrap';
 
+.btn-primary {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	border-radius: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	color: #FAFAFA;
+	background-color: #060606;
+	border-color: #050505;
+}
+.jumbotron {
+	 text-align: center;
+	 margin-bottom: 0px;
+}
+
+body { 
+	padding-bottom: 70px;
+	color: purple;
+
+}
+a {
+	background: grey;
+}
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
 .center {
 	text-align: center;
 }
@@ -16,21 +46,16 @@ $jumbotron-bg: 						#0F0E0E; //Black//
 .navbar-brand {
 	font-weight: bold;
 }
-body { padding-bottom: 70px; }
-
-
-
-//.button {
-//   /*adjust the roundness*/
-//    border-radius: 0px;
-//    moz-border-radius: 0px;
-//    webkit-border-radius: 0px;
-//    /*adjust height and width*/
-//    height: 50px;
-//    width: 150px; 
-//    /*change border colour*/
-//    border:2px #FFFFFF solid;
-//}
+.panel-default {
+	background: lightblue;
+	margin: 0 auto;
+	max-width: 30%;
+	margin-top: 100px;
+}
+.panel-body {
+	width: 200px;
+	max-width: 100%;
+}
 
 
 

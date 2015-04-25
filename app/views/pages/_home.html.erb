@@ -1,10 +1,16 @@
 
+
 <div class="jumbotron center">
 	<h1>WHAT HAPPENS AT THE FEST</h1>
 	<h1>STAYS AT THE FEST</h1>
 		W e l c o m e | F e s t e r s
+	<!--<% if user_signed_in? %>-makes jumbotron dissapear-->
+		#do something
+	<!--<% else %>-->
 			<p>
 				<p><%= link_to "L o g I n", new_user_session_path, class: "btn btn-primary" %></p>
 				<p><%= link_to "J o i n", new_user_registration_path, class: "btn btn-primary" %></p>
 			</p>
+	<!--<% end %>-->
+
 </div>

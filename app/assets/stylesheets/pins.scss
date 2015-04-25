@@ -5,21 +5,51 @@
 
 #pins {
 	margin: 0 auto;
+	background: green;
 }
 
-.box {
-	margin: 0px;
-	width: 584px;
-}
-
-.box img {
+.box img { //Do not know what this does yet//
 	width: 100%;
+	max-width: 200px;
+}
+a {
+	
+}
+input {
+
 }
 
 .box {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  border-radius: 0px;
+    display:inline-block;//This brings images to the right//
+    margin: 0px;
+    max-width: 100%;
+    height: auto;
+  	-webkit-border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	-ms-border-radius: 0px;
+  	border-radius: 0px;
+  	border-top-width: 0px;
+  	border-right-width: 0px;
+  	border-bottom-width: 0px;
+  	border-left-width: 0px;
+  	background: yellow;
+  	float: left;
 }
+.form-control {
+  padding: 0 auto;
+  height: 40px;
+}
+input {
+ 
+}
+input#user_email {
+
+}
+input#user_password {
+
+}
+
+//-------------Sign-in-form-----------------//
+
+
 
